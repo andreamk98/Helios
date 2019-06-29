@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hide-on-med-and-up img {
+	width: 100%;
+}
+
+/* HEADER */
+.brand-logo {
+	margin-left: 10px;
+}
+
+/* MAIN */
+main .container {
+	font-family: 'Roboto Slab', serif;
+}
+
+button {
+	margin: 2vh 0;
+}
+
+/* INDEX */
+.info {
+	border: 2px solid #00b8d4;
+	text-align: center;
+	margin: 5vh 0;
+}
+
+.info p {
+	padding: 2vh;
+}
+
+/* RESERVACIONES */
+#promos {
+	padding: 5vh;
+}
+
+/* GALERIA */
+.carousel {
+	height: 35vh;
+}
+
+.hide-on-small-only img {
+	width: 100%;
+}
+
+/* CONTACTO */
+.mapouter, .gmap_canvas, iframe {
+	height:100%;
+	width:100%;
+}
+
+/* Sticky footer */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.redes img {
+	height: 5vh;
+}
+
+footer p {
+	font-size: 2vh;
+}

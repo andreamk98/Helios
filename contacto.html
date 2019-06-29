@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142951032-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-142951032-1');
+	</script>
+
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- AUTOR -->
+	<meta name="author" content="Andrea Moguel Krause">
+	<!-- KEYWORDS -->
+	<meta name="keywords" content="Hotel,Lujo,Bacalar,Quintana Roo,Resort,Spa,5 estrellas,Contacto,Correo,Teléfono,Ubicación,Dudas,Preguntas">
+	<!-- DESCRIPCIÓN -->
+	<meta name="description" content="El mejor y más lujoso hotel a orillas de la Laguna de Bacalar. Si tienes alguna duda, no dudes en contactarnos.">
+	<!-- LINKS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+	<title>Helios | Contacto</title>
+	<link rel="shortcut icon" href="img/icono.png">
+</head>
+<body>
+	<header>
+		<!-- NAVBAR -->
+		<nav>
+			<div class="nav-wrapper cyan lighten-3">
+				<a href="index.html" class="brand-logo"><i class="material-icons">wb_sunny</i>Helios</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reservaciones.html">Reservaciones</a></li>
+					<li><a href="rest_bar.html">Restaurante & Bar</a></li>
+					<li><a href="galeria.html">Galería de Fotos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- SIDENAV -->
+		<ul class="sidenav cyan lighten-4" id="mobile-demo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="reservaciones.html">Reservaciones</a></li>
+			<li><a href="rest_bar.html">Restaurante & Bar</a></li>
+			<li><a href="galeria.html">Galería de Fotos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</header>
+
+	<main>
+		<div class="container">
+			<h2 class="center">¡CONTÁCTENOS!</h2>
+			<!-- CONTENIDO -->
+			<div class="row flex">
+				<!-- FORM -->
+				<div class="col s12 l6">
+					<div class="input-field col s6">
+						<input id="nombre" type="text" class="validate">
+						<label for="nombre">Nombre</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="apellidos" type="text" class="validate">
+						<label for="apellidos">Apellidos</label>
+					</div>
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Correo</label>
+						<span class="helper-text" data-error="Formato inválido" data-success="Formato válido">Ingresa tu correo</span>
+					</div>
+					<div class="input-field col s12">
+						<textarea id="textarea1" class="materialize-textarea"></textarea>
+						<label for="textarea1">Comentario</label>
+					</div>
+					<!-- BOTÓN -->
+					<button class="btn waves-effect waves-light cyan lighten-3 col s4 offset-s8" type="submit" name="action">Enviar
+						<i class="material-icons right">send</i>
+					</button>
+
+					<div class="col s1"><i class="material-icons right">local_phone</i></div>
+					<div class="col s11">También puede llamarnos por teléfono: 01 983 ... ....</div>
+				</div>
+				<!-- MAPA -->
+				<div class="col s12 l6">
+					<div class="mapouter">
+						<div class="gmap_canvas">
+							<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=18.659096%2C%20-88.393035&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="page-footer cyan lighten-3">
+		<div class="container">
+			<div class="row">
+				<!-- NOMBRE -->
+				<div class="col l6 s6">
+					<p class="grey-text text-lighten-4">Andrea Moguel Krause</p>
+				</div>
+				<!-- REDES -->
+				<div class="col l4 offset-l2 s4 offset-s2">
+					<div class="row redes">
+						<div class="col l3 s6">
+							<a href="#"><img src="img/facebook.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/twitter.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/instagram.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/youtube.png"></a>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</html>

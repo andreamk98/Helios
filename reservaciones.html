@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142951032-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-142951032-1');
+	</script>
+
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- AUTOR -->
+	<meta name="author" content="Andrea Moguel Krause">
+	<!-- KEYWORDS -->
+	<meta name="keywords" content="Hotel,Lujo,Bacalar,Quintana Roo,Resort,Spa,5 estrellas,Reservaciones,Reservar,Cuartos,Habitaciones">
+	<!-- DESCRIPCIÓN -->
+	<meta name="description" content="Reserva tus habitaciones HOY en el hotel Helios, el mejor y más lujoso hotel a orillas de la Laguna de Bacalar.">
+	<!-- LINKS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+	<title>Helios | Reservaciones</title>
+	<link rel="shortcut icon" href="img/icono.png">
+</head>
+<body>
+	<header>
+		<!-- NAVBAR -->
+		<nav>
+			<div class="nav-wrapper cyan lighten-3">
+				<a href="index.html" class="brand-logo"><i class="material-icons">wb_sunny</i>Helios</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reservaciones.html">Reservaciones</a></li>
+					<li><a href="rest_bar.html">Restaurante & Bar</a></li>
+					<li><a href="galeria.html">Galería de Fotos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- SIDENAV -->
+		<ul class="sidenav cyan lighten-4" id="mobile-demo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="reservaciones.html">Reservaciones</a></li>
+			<li><a href="rest_bar.html">Restaurante & Bar</a></li>
+			<li><a href="galeria.html">Galería de Fotos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</header>
+
+	<main>
+		<!-- PARALLAX -->
+		<div class="parallax-container hide-on-small-only">
+		  <div class="parallax"><img src="img/para3.jpg"></div>
+		</div>
+		<!-- PARA CELULAR -->
+		<div class="hide-on-med-and-up">
+			<img src="img/para3.jpg">
+		</div>
+		<!-- OFERTAS -->
+		<div class="row">
+			<div class="col s10 offset-s1">
+				<div class="card-panel cyan accent-4">
+					<h6 class="white-text center">En esta época de verano, aproveche nuestros paquetes infantiles para que sus hijos pasen unas vacaciones increíbles
+					</h6>
+				</div>
+			</div>
+		</div>
+		<!-- CONTENIDO -->
+		<div class="container">
+			<div class="row flex">
+				<!-- FECHAS -->
+				<div class="col l4 m6 s12 valign-wrapper">
+					<div class="row">
+						<h6 class="col s12">Fecha de llegada:</h6>
+						<input type="text" class="datepicker col s10" placeholder="Fecha de llegada">
+						<h6 class="col s12">Fecha de salida:</h6>
+						<input type="text" class="datepicker col s10" placeholder="Fecha de salida">
+					</div>
+				</div>
+				<!-- HUÉSPEDES -->
+				<div class="col l4 m6 s12 valign-wrapper">
+					<div class="row">
+						<h6 class="col s12">Número de huéspedes</h6>
+						<div class="input-field col s10">
+							<h6>Adultos (13+)</h6>
+							<select>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						</div>
+						<div class="input-field col s10">
+							<h6>Niños (12-)</h6>
+							<select>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<!-- TIPO -->
+				<div class="col l4 m6 s12 valign-wrapper">
+					<div class="row">
+						<h6 class="col s12">Tipo de cama(s):</h6>
+						<div class="input-field col s10">
+							<select>
+								<option value="" disabled selected>Elegir</option>
+								<option value="1">Sencilla</option>
+								<option value="2">Doble</option>
+								<option value="3">King</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<!-- PROMOS -->
+				<div class="col l12 m6 s12 cyan lighten-3 white-text" id="promos">
+					<h5>NUESTRAS PROMOCIONES</h5>
+					<!-- RADIO -->
+					<form action="#" class="col s10 offset-s1">
+						<p>
+							<label class="white-text">
+								<input class="with-gap" name="group1" type="radio" />
+								<span>Recién casados</span>
+							</label>
+						</p>
+						<p>
+							<label class="white-text">
+								<input class="with-gap" name="group1" type="radio" />
+								<span>Cumpleaños (infantil)</span>
+							</label>
+						</p>
+						<p>
+							<label class="white-text">
+								<input class="with-gap" name="group1" type="radio"  />
+								<span>Cumpleaños (adulto)</span>
+							</label>
+						</p>
+						<p>
+							<label class="white-text">
+								<input class="with-gap" name="group1" type="radio" />
+								<span>Vacaciones de verano</span>
+							</label>
+						</p>
+						<p>
+							<label class="white-text">
+								<input class="with-gap" name="group1" type="radio" />
+								<span>
+									Código promocional
+									<div class="input-field col s12 m6 l12">
+										<input id="codigo" type="password" class="validate">
+									</div>
+								</span>
+							</label>
+						</p>
+					</form>
+				</div>
+			</div>
+			<!-- BOTÓN -->
+			<div class="row">
+				<button class="btn waves-effect waves-light cyan lighten-3 col s4 offset-s8 m3 offset-m9 l2 offset-l10" type="submit" name="action">Buscar
+					<i class="material-icons right">search</i>
+				</button>
+			</div>			
+		</div>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="page-footer cyan lighten-3">
+		<div class="container">
+			<div class="row">
+				<!-- NOMBRE -->
+				<div class="col l6 s6">
+					<p class="grey-text text-lighten-4">Andrea Moguel Krause</p>
+				</div>
+				<!-- REDES -->
+				<div class="col l4 offset-l2 s4 offset-s2">
+					<div class="row redes">
+						<div class="col l3 s6">
+							<a href="#"><img src="img/facebook.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/twitter.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/instagram.png"></a>
+						</div>
+						<div class="col l3 s6">
+							<a href="#"><img src="img/youtube.png"></a>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</html>
